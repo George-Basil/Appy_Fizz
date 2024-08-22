@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+}
+
+.navigation-bar{
+    background-color: rgb(10,11,39);
+}
+.nav-link:hover{
+color: rgb(229,63,39) !important;
+}
+
+.section2-left{
+    background-color: black;
+}
+
+#heading-left{
+    position: absolute;
+    z-index: 2;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font: size 1.25rem;
+    color: white;
+    font-family: "EksellDisplayWeb-Small";
+}
+
+#leaf-img{
+    height: 100%;
+    width: 150px;
+}
+
+.right-side{
+    padding: 120px;
+    font-size: 24px;
+}
+.footer{
+    font-size: 16px;
+}
+
+.bold{
+    line-height: 3;
+}
+.footer-line{
+    font-weight: bold;
+    line-height: 2;
+}
+.footer-line:hover{
+    color: rgb(229,63,39) !important;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+    
+@media (max-width:992px){
+
+    .right-side{
+        padding: 25px;
+       padding-top: 50px;
+       font-size: 18px;
+       
+    }
+}
+@media (min-width:992px){
+
+    #heading-left{
+
+        font-size:  4.25rem;
+        font-weight: 800;
+        width: 350px;
+        text-align: center;
+        
+    }
+    
+}
+/* footer style */
+
+/* footer {
+    height: 266px;
+} */
+
+/* media query to adjust size of leaf image  */
+/* @media (max-width: 376px) {
+    #leaf {
+        width: 150px;
+        
+    }
+}
+
+@media (max-width: 2000px) {
+    #leaf {
+        width: 800px;
+        
+    }
+} */
+
