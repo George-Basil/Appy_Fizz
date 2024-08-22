@@ -10,6 +10,9 @@
 .nav-link:hover{
 color: rgb(229,63,39) !important;
 }
+.wrap{
+    width: max-content;
+}
 
 .section2-left{
     background-color: black;
@@ -73,24 +76,4 @@ color: rgb(229,63,39) !important;
     }
     
 }
-/* footer style */
-
-/* footer {
-    height: 266px;
-} */
-
-/* media query to adjust size of leaf image  */
-/* @media (max-width: 376px) {
-    #leaf {
-        width: 150px;
-        
-    }
-}
-
-@media (max-width: 2000px) {
-    #leaf {
-        width: 800px;
-        
-    }
-} */
 
